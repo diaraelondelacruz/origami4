@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+.clearfix {
+	clear: both;
+}
+
+/* TEXT */
+h1 {
+	font-family: "Aubrey", system-ui;
+  	font-weight: 800;
+  	font-size: 40px;
+  	text-transform: capitalize;
+  	text-align: left;
+  	margin-bottom: 20px;
+}
+h2 {
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1em;
+}
+h3 {
+	text-align: center;
+	text-transform: capitalize;
+	margin: 10px 0;
+}
+p.subtitle {
+	font-weight: 300;
+	text-align: center;
+	margin-bottom:30px;
+}
+p.name {
+	font-weight: 700;
+	text-transform: capitalize;
+}
+p.skilllevel {
+	font-size: 20px;
+	font-weight: 600;
+	color: #ffffff;
+}
+small {
+	font-size: 13px;
+	text-transform: capitalize;
+}
+
+/* BASE */
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+header {
+	padding: 20px;
+}
+#logo {
+	float: left;
+}
+#logo img {
+	height: 100px;
+}
+nav {
+	float: right;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	float: left;
+	padding: 20px;
+	margin: 10px;
+	background-color: #D68189;
+	border-radius: 10px;
+}
+nav ul li a {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+footer {
+	text-transform: capitalize;
+	font-size: 12px;
+	width: 100%;
+	padding: 20px;
+	background-color: #C6A49A;
+}
+footer img {
+	float: left;
+	width: 200px;
+}
+#copyright {
+	float: left;
+	margin-left: 20px;
+}
+#designer {
+	float: right;
+	margin-top: 15px;
+}
+
+/* SECTION */
+section {
+	width: 100%;
+	padding: 30px;
+}
+section.tan {
+	background-color: #EEEBE6;
+}
+.content {
+	width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+#pagelabel {
+	background-color: #C6A49A;
+	background-image: url(../images/bg_tile.png);
+}
+#pagelabel h1 {
+	font-weight: 400;
+	font-size: 50px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+/* featured lesson *********/
+.featured-img img  {
+	border-radius:10px;
+}
+
+.featured-text{
+	display:flex;
+}
+.featured-text h3{
+	text-align: left;
+	font-size: 18px;
+	margin-top:30px;
+}
+.featured-text p{
+	margin-top:25px;
+}
+.featured-cta{
+	margin-top:30px;
+	margin-left:30px;
+	flex:0 0 350px;
+	background-color:#C6A49A;;
+	padding:30px;
+	text-align:center;
+	color:white;
+	border-radius:10px;
+	
+}
+.featured-cta h2{
+	font-face: sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+
+.featured-cta p{
+	margin-top: 30px;
+}
+.featured-cta sup{
+	font-size:18px;
+}
+
+.featured-cta sup{
+	font-size:18px;
+}
+
+.price{
+	background-color:#E3CFB4;;
+	text-align:center;
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	border-radius:50%;
+	font-size:40px;
+	border:3px solid white;
+}
+.price span{
+	display:inline-block;
+	margin-top:25px;
+	color:#E94E77;
+}
+
+a.button{
+	background-color:#E94E77;
+	padding:10px 20px;
+	color:white;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+a.button:hover{
+	background-color:black;
+}
+
+
+/* ABOUT */
+#masters {
+	width: 600px;
+	margin: 0 auto;
+}
+.master-content {
+	text-align: center;
+	width: 50%;
+	float: left;
+	margin: 30px 0;
+}
+.master-content img {
+	border-radius: 50%;
+}
+#headmaster {
+	margin-left: 0;
+	width: 275px;
+}
+#headmaster img {
+	border-radius: 30px;
+}
+#lessons {
+	margin-top: 20px;
+}
+.lesson {
+	font-size: 16px;
+	background-color: #ffffff;
+	width: 225px;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+}
+.lesson:first-child {
+	margin-left: 0;
+}
+.skill {
+	font-size: 14px;
+	width: 100px;
+	background-color: #e94377;
+	margin-top: 30px;
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.lessonmasters {
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-start;
+	flex-wrap:wrap;
+}
+
+.lessonmaster-content{
+	text-align:center;
+	flex:0 0 45%;
+	margin-bottom:30px;
+}
+
+.lessonmaster-content img{
+	width:114px;
+	border-radius:50%;
+	border:5px solid var(--lighttan);
+}
+
+.lessonmaster-content img:hover{
+	width:114px;
+	border:5px solid var(--darkpink);
+}
+	
+/*MASTERCLASS LESSONS***/
+.card-container{
+	display:flex;
+	justify-content: space-between;
+}
+.card-container{
+	flex-wrap: wrap;
+}
+.card {
+	padding: 10px;
+	border-radius:10px;
+	background-color: #ffffff;
+	width: 23%;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.card img{
+	border-radius: 10px;
+}
+.card h3 {
+	align-self: center;
+	font-size:18px;
+}
+.card p {
+	font-size:16px;
+}
+.card .button {
+	padding:10px;
+}
+.lesson-description{
+	flex-grow: 1;
+}
+.lessons .card{
+	align-items:center;
+	background-color: #E3CFB4;
+}
+.lessons.videos .card {
+	width: 30%;
+	background-color: #ffffff;
+}
+.lessons .card h3 {
+	flex-grow: 1;
+}
+
+
+/*CONTACTS***/
+.contactcontent {
+	display:flex;
+	justify-content: space-between;
+}
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 400px;
+	width: 100%;
+	margin: 0;
+}
+.gmap_canvas{
+	overflow: hidden;
+	background:none!important;
+	height: 400px;
+	width: 100%;
+	margin: 0;
+}
+#form-container{
+	flex-basis: 60%;
+}
+#contactinfo-container{
+	flex-basis: 30%;
+}
+.form-group{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom: 12px;
+}
+.form-group label {
+	flex-basis: 100px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea
+{
+	flex:1 1 300px;
+	font-size: 16px;
+	border-radius: 10px;
+	background-color: #eeebe6;
+	border: none;
+	padding: 10px;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus
+{
+	outline:none !important;
+}
+.form-row {
+	display:flex;
+	align-items: center;
+}
+.form-group input[type="submit"] {
+	background-color:#e94e77;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.form-group input[type="submit"]:hover {
+	background-color: #000000;
+}
+.contact-row {
+	display: flex;
+	align-items:center;
+}
+.contact-row label {
+	flex-basis: 70px;
+	font-weight: 700;
+}
+.socmed-container{
+	display:flex;
+	align-items: center;
+}
+ul.socmed-container{
+	padding:0;
+}
+ul.socmed-container li {
+	list-style:none;
+}
+ul.socmed-container li svg {
+	width: 30px;
+	margin-right: 10px;
+	opacity: .5;
+	transition: margin-top .2s;
+}
+ul.socmed-container li svg:hover{
+	opacity: 1;
+	margin-top: -5px;
+}
